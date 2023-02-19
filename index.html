@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>freeCodeCamp Survey Form</title>
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <div class="form-group">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" placeholder="Enter your Email" required>
+        </div>
+        <div class="form-group">
+            <label for="number" id="number-label">Age (optional)</label>
+            <input type="number" id="number" min=5 max=100 placeholder="Age" required>
+        </div>
+        <div class="form-group">
+            <p>Which option best describes your current role?</p>
+            <select name="current-role" id="dropdown">
+                <option disabled selected>Select current role</option>
+                <option value="student">Student</option>
+                <option value="job">Full Time Job</option>
+                <option value="learner">Full Time Learner</option>
+                <option value="preferNo">Prefer not to Say</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <label><input name="user-recommend" type="radio" value="definitely" checked> Definitely</label>
+            <label><input name="user-recommend" type="radio" value="maybe"> Maybe</label>
+            <label><input name="user-recommend" type="radio" value="notSure"> Not sure</label>
+        </div>
+        
+        
+
+    </form>
+
+</body>
+</html>
