@@ -1,7 +1,7 @@
 # freeCodeCamp-Survey-Form
 
 ## Description
-This is one of the certification project for [Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/) from the freeCodeCamp. For this project, a survey form will be built to collect data from the users.
+This is one of the certification projects for [Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/) from the freeCodeCamp. For this project, a survey form will be built to collect data from the users.
 
 In this project, HTML and CSS was used to create the webpage. The Mock webpage can be found [here](https://survey-form.freecodecamp.rocks).
 
